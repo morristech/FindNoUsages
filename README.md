@@ -7,7 +7,7 @@ Find No Usages is the plugin of Intellij   IDEA.
 This plugin searches the unused file from your project without Lint.
 
 ## Download
-from [Github](https://github.com/kaelaela/FindNoUsages/raw/master/FindNoUsages.jar)
+Download from [Github](https://github.com/kaelaela/FindNoUsages/raw/master/FindNoUsages.jar). And the plugin jar and select "Install Plugin From Disk" in IntelliJ's plugin preferences.
 
 ## Command
 
