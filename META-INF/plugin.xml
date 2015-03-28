@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+    <id>me.kaelaela.find_no_usages</id>
+    <name>Find No Usages</name>
+    <version>0.1</version>
+    <vendor email="kaelaela.31@gmail.com" url="http://kaelaela.me">kaelaela</vendor>
+
+    <description>Find No Usages is the plugin of Intellij IDEA &amp; Android Studio.
+        This plugin searches the unused file from your project without Lint.</description>
+
+    <change-notes>
+
+    </change-notes>
+
+    <idea-version since-build="131"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+        <action id="FindNoUsagesAction" class="FindNoUsagesAction" text="Find no usages"
+                description="Search unused files">
+            <add-to-group group-id="MainMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift F7"/>
+        </action>
+    </actions>
+
+</idea-plugin>
